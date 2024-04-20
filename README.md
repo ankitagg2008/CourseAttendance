@@ -81,7 +81,7 @@ RetinaFace is a robust single-stage face detector that performs pixel-wise face 
 ### Face Recognition:
 Face Recognition is a Python library that can be used to recognize and manipulate faces. It is built on top of Dlib modern C++ toolkit that contains machine-learning algorithms and tools for creating complex software in C++ to solve real-world problems. As a part of facial recognition, after the facial images have been extracted, cropped, resized, and often converted to grayscale, the face recognition algorithm takes on the task of identifying features that most accurately represent the image.
 
-### Face Recognition Output Screenshots:
+### Recognized Faces:
 <figure align="center"> 
   <img src="images/15_predicted.jpg" alt="drawing" height="720"/>
   <figcaption>Face Recognition on group image</figcaption>
@@ -130,7 +130,7 @@ Face Recognition is a Python library that can be used to recognize and manipulat
 - **Access Control Systems**: Offers an additional layer of security by integrating face recognition for entry.
 
 ## Citations:
-[Face Detection and Face Recognition Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrainalyst.in%2Fface-detection-and-face-recognition%2F&psig=AOvVaw3eSregE6CKGlWYOqkyp3Gm&ust=1713629119953000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqGAoTCNjwq7LUzoUDFQAAAAAdAAAAABCBAQ)
+1. https://arxiv.org/abs/1905.00641
 
 
 
