@@ -1,6 +1,6 @@
 # Course Attendance Robot
 <div align="center">
-    <a><img width="720" src="images/Title_Image.jpg" alt="soft"></a>
+    <a><img width="720" src="images/face-recognition-attendance-system.jpg" alt="soft"></a>
 </div>
 
 ## Table of Contents
