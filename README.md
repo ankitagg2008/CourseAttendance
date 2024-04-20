@@ -1,4 +1,4 @@
-# Course Attendance System
+# Course Attendance Robot
 <div align="center">
     <a><img width="720" src="images/Title_Image.jpg" alt="soft"></a>
 </div>
