@@ -1,12 +1,10 @@
 # Course Attendance System
 <div align="center">
-    <a><img width="720" src="FD_FR_1.jpg" alt="soft"></a>
+    <a><img width="720" src="images/Title_Image.jpg" alt="soft"></a>
 </div>
-Say goodbye to tedious roll calls! This project introduces a comprehensive system for managing attendance, harnessing facial detection and recognition technologies to identify individual students and register their attendance. Developed with Python, RetinaFace, Face_Recognition, and OpenCV, the system offers an efficient and automated solution for monitoring attendance across diverse settings such as educational institutions and workplaces.
+This project introduces a comprehensive system for managing attendance, leveraging facial detection and recognition technologies to identify individual students and register their attendance. The system is developed using python, RetinaFace, Face_Recognition, and OpenCV. It offers an efficient and automated solution for monitoring attendance across diverse settings such as educational institutions and workplaces.
 
-Users can upload their images into the system's database, which is then utilized for facial recognition during attendance checks. Recognized faces are cross-referenced with the database, and attendance records are instantly updated in real time. 
-
-This project serves as a compelling demonstration of how computer vision and machine learning can modernize traditional processes, improving efficiency and accuracy.
+Users can also use a web-based graphical interface, to upload classroom images to perform automatic attendance and save the results directly into a CSV file.
 
 ## Table of Contents
 
@@ -14,17 +12,13 @@ This project serves as a compelling demonstration of how computer vision and mac
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
       - [Project Description](#project-description)
-      - [Website Screenshots](#website-screenshots)
+      - [Website](#website-screenshots)
   - [Datasets](#datasets)
-      - [Raw Images Data Collection](#raw-images-data-collection)
-      - [Raw Screenshots](#raw-screenshots)
-      - [Processed Images Summary](#processed-images-summary)
-      - [Processed Screenshots](#processed-screenshots)
+      - [Raw Images - Training](#raw-images-data-collection)
+      - [Processed Images ](#processed-images-summary)
   - [Method](#method)
       - [RetinaFace](#retinaface)
-      - [Retinaface Output Screenshots](#retinaface-output-screenshots)
       - [Face Recognition](#face-recognition)
-      - [Face Recognition Output Screenshots](#face-recognition-output-screenshots)
   - [Results](#results)
   - [Technical Information](#technical-information)
   - [Benefits](#benefits)
@@ -46,8 +40,18 @@ Whether you're an educational institution seeking to streamline attendance manag
 ### Website Screenshots
 
 <figure align="center"> 
-  <img src="docs/images/main_page.png" alt="drawing" height="400"/>
-  <figcaption>Home Page of the Interface</figcaption>
+  <img src="images/AddCourse.png" alt="drawing" height="400"/>
+  <figcaption>Screen to Facilitate Course Addition</figcaption>
+</figure>
+
+<figure align="center"> 
+  <img src="images/CaptureAttendance.jpg" alt="drawing" height="400"/>
+  <figcaption>Screen to Capture Course Attendance</figcaption>
+</figure>
+
+<figure align="center"> 
+  <img src="images/RecordAttendance.jpg" alt="drawing" height="400"/>
+  <figcaption>Screen to Modify, Save or Download Attendance CSV.</figcaption>
 </figure>
 
 
@@ -58,8 +62,8 @@ To assess the efficacy of the proposed system, a dataset containing thirty-six s
 
 ### Raw Screenshots:
 <figure align="center"> 
-  <img src="docs/images/main_page.png" alt="drawing" height="400"/>
-  <figcaption>Home Page of the Interface</figcaption>
+  <img src="images/training112.png" alt="drawing" height="400"/>
+  <figcaption>Raw Images of Dimension 112x112</figcaption>
 </figure>
 
 ### Processed Images Summary:
@@ -67,8 +71,8 @@ To assess the efficacy of the proposed system, a dataset containing thirty-six s
 
 ### Processed Screenshots:
 <figure align="center"> 
-  <img src="docs/images/main_page.png" alt="drawing" height="400"/>
-  <figcaption>Home Page of the Interface</figcaption>
+  <img src="images/training50" alt="drawing" height="400"/>
+  <figcaption>Processed Images Ready for Embeddings 50x50</figcaption>
 </figure>
 
 ## Method:
